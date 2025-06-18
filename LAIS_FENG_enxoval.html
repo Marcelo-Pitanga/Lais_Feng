@@ -130,10 +130,6 @@
   </div>
 
   <div id="botoes">
-    <label class="upload-btn">
-      📂 Carregar Lista (JSON)
-      <input type="file" accept=".json" onchange="carregarJSON(event)" />
-    </label>
     <button onclick="salvarJSON()">💾 Salvar Lista (JSON)</button>
     <button onclick="exportarCSV()">📤 Exportar CSV</button>
     <button onclick="window.print()">🖨️ Imprimir</button>
@@ -179,17 +175,16 @@
   </table>
 
 <script>
-  const dados = [
-    {"Categoria":"Roupas","Idade":"RN","Produto":"Bodies manga curta","Quantidade":4,"Comprados":0,"Faltantes":4,"Status":"COMPRAR","Foto":""},
-    {"Categoria":"Roupas","Idade":"RN","Produto":"Bodies manga longa","Quantidade":4,"Comprados":1,"Faltantes":3,"Status":"COMPRAR","Foto":""},
-    {"Categoria":"Roupas","Idade":"RN","Produto":"Casaquinhos","Quantidade":2,"Comprados":0,"Faltantes":2,"Status":"COMPRAR","Foto":""},
-    {"Categoria":"Roupas","Idade":"RN","Produto":"Calças/mijões","Quantidade":5,"Comprados":1,"Faltantes":4,"Status":"COMPRAR","Foto":""},
-    {"Categoria":"Roupas","Idade":"RN","Produto":"Macacões (plush e leves)","Quantidade":2,"Comprados":4,"Faltantes":-2,"Status":"OK","Foto":""},
-    {"Categoria":"Roupas","Idade":"RN","Produto":"Luvinhas","Quantidade":2,"Comprados":1,"Faltantes":1,"Status":"COMPRAR","Foto":""},
-    {"Categoria":"Roupas","Idade":"RN","Produto":"Saída de maternidade","Quantidade":2,"Comprados":1,"Faltantes":1,"Status":"COMPRAR","Foto":""}
-  ];
+  const dados = [];
 
-  // resto do script permanece igual...
+  fetch('https://raw.githubusercontent.com/Marcelo-Pitanga/Lais_Feng/refs/heads/main/dados_enxoval.json')
+    .then(response => response.json())
+    .then(json => {
+      json.forEach(d => dados.push(d));
+      renderizarTabela();
+    });
+
+  // sua função renderizarTabela e demais funções continuam aqui...
 </script>
 
 </body>
