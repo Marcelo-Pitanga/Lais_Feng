@@ -1,0 +1,1762 @@
+[
+  {
+    "Categoria": "Roupas",
+    "Idade": "RN",
+    "Produto": "Bodies manga curta",
+    "Quantidade": 4,
+    "Comprados": 0,
+    "Faltantes": 4,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "RN",
+    "Produto": "Bodies manga longa",
+    "Quantidade": 4,
+    "Comprados": 1,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "RN",
+    "Produto": "Casaquinhos",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "RN",
+    "Produto": "Calças/mijões ",
+    "Quantidade": 5,
+    "Comprados": 1,
+    "Faltantes": 4,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "RN",
+    "Produto": "Macacões (plush e leves)",
+    "Quantidade": 2,
+    "Comprados": 4,
+    "Faltantes": -2,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "RN",
+    "Produto": "Luvinhas",
+    "Quantidade": 2,
+    "Comprados": 1,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "RN",
+    "Produto": "Saída de maternidade",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "RN",
+    "Produto": "Meias",
+    "Quantidade": 5,
+    "Comprados": 5,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "RN",
+    "Produto": "Gorros",
+    "Quantidade": 2,
+    "Comprados": 1,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "RN",
+    "Produto": "Pijama",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Bodies manga curta",
+    "Quantidade": 5,
+    "Comprados": 0,
+    "Faltantes": 5,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Bodies manga longa",
+    "Quantidade": 5,
+    "Comprados": 6,
+    "Faltantes": -1,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Casaquinhos",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Calças/mijões ",
+    "Quantidade": 8,
+    "Comprados": 6,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Macacões curtos ",
+    "Quantidade": 6,
+    "Comprados": 0,
+    "Faltantes": 6,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Macacões compridos",
+    "Quantidade": 2,
+    "Comprados": 3,
+    "Faltantes": -1,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Roupa mais bonitinha",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Meias",
+    "Quantidade": 5,
+    "Comprados": 0,
+    "Faltantes": 5,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Gorros",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Pijama",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Sapatinho / meia gominha",
+    "Quantidade": 3,
+    "Comprados": 3,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Camiseta manga curta ",
+    "Quantidade": 5,
+    "Comprados": 0,
+    "Faltantes": 5,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Camiseta manga longa",
+    "Quantidade": 3,
+    "Comprados": 1,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "0-3 m",
+    "Produto": "Conjunto de casaco",
+    "Quantidade": 2,
+    "Comprados": 1,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "3-6 m",
+    "Produto": "Bodies manga curta",
+    "Quantidade": 7,
+    "Comprados": 2,
+    "Faltantes": 5,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "3-6 m",
+    "Produto": "Bodies manga longa",
+    "Quantidade": 2,
+    "Comprados": 6,
+    "Faltantes": -4,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "3-6 m",
+    "Produto": "Casaquinhos",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "3-6 m",
+    "Produto": "Calças/mijões ",
+    "Quantidade": 6,
+    "Comprados": 6,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "3-6 m",
+    "Produto": "Macacões curtos ",
+    "Quantidade": 6,
+    "Comprados": 0,
+    "Faltantes": 6,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "3-6 m",
+    "Produto": "Macacões compridos ",
+    "Quantidade": 2,
+    "Comprados": 3,
+    "Faltantes": -1,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "3-6 m",
+    "Produto": "Roupa mais bonitinha",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "3-6 m",
+    "Produto": "Meias",
+    "Quantidade": 6,
+    "Comprados": 0,
+    "Faltantes": 6,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "3-6 m",
+    "Produto": "Pijama",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "3-6 m",
+    "Produto": "Sapatinho / meia gominha",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "3-6 m",
+    "Produto": "Camiseta manga curta ",
+    "Quantidade": 4,
+    "Comprados": 0,
+    "Faltantes": 4,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "3-6 m",
+    "Produto": "Camiseta manga longa",
+    "Quantidade": 2,
+    "Comprados": 1,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "6-9 m",
+    "Produto": "Bodies manga curta",
+    "Quantidade": 6,
+    "Comprados": 0,
+    "Faltantes": 6,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "6-9 m",
+    "Produto": "Bodies manga longa",
+    "Quantidade": 6,
+    "Comprados": 0,
+    "Faltantes": 6,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "6-9 m",
+    "Produto": "Casaquinhos",
+    "Quantidade": 2,
+    "Comprados": 1,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "6-9 m",
+    "Produto": "Calças",
+    "Quantidade": 6,
+    "Comprados": 1,
+    "Faltantes": 5,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "6-9 m",
+    "Produto": "Short / vestido",
+    "Quantidade": 4,
+    "Comprados": 0,
+    "Faltantes": 4,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "6-9 m",
+    "Produto": "Macacões (plush e leves)",
+    "Quantidade": 6,
+    "Comprados": 2,
+    "Faltantes": 4,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "6-9 m",
+    "Produto": "Roupa mais bonitinha",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "6-9 m",
+    "Produto": "Meias",
+    "Quantidade": 6,
+    "Comprados": 0,
+    "Faltantes": 6,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "6-9 m",
+    "Produto": "Pijama",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "6-9 m",
+    "Produto": "Sapatinho / meia gominha",
+    "Quantidade": 8,
+    "Comprados": 0,
+    "Faltantes": 8,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Camiseta manga curta ",
+    "Quantidade": 2,
+    "Comprados": 1,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Camiseta manga longa",
+    "Quantidade": 4,
+    "Comprados": 0,
+    "Faltantes": 4,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Bodies manga curta",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Bodies manga longa",
+    "Quantidade": 6,
+    "Comprados": 0,
+    "Faltantes": 6,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Casaquinhos",
+    "Quantidade": 4,
+    "Comprados": 0,
+    "Faltantes": 4,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Calças",
+    "Quantidade": 6,
+    "Comprados": 0,
+    "Faltantes": 6,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Short / vestido",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Macacões (plush e leves)",
+    "Quantidade": 6,
+    "Comprados": 0,
+    "Faltantes": 6,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Luvinhas",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Roupa mais bonitinha",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Meias",
+    "Quantidade": 8,
+    "Comprados": 0,
+    "Faltantes": 8,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Gorros",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Pijama",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Roupas",
+    "Idade": "9-12 m",
+    "Produto": "Sapatinho / meia gominha",
+    "Quantidade": 6,
+    "Comprados": 0,
+    "Faltantes": 6,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Bolsinha térmica para mamadeira",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Kit Mamadeira (com esterelizador de microondas)",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Mamadeira pequena ",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Mamadeira média ",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Mamadeira grande ",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Bicos de Mamadeira (até 6 meses) ",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Bicos de Mamadeira (a aprtir 6 meses) ",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Escova de limpar mamadeira",
+    "Quantidade": 1,
+    "Comprados": 1,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Esterilizador de mamadeira",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Bomba de Leite",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Sutiã para bomba de leite",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Coletor de leite ",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Almofada de amamentação",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Pote para guardar leite em pó",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Aquecedor elétrico de mamadeira",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Potinhos para guardar alimento",
+    "Quantidade": 5,
+    "Comprados": 0,
+    "Faltantes": 5,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Pratinho para papinha",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Talheres",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Copinho de bico de pato e garrafinha de água/suco",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Copinho que não deixa escorrer a bebida",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Babador (pano)",
+    "Quantidade": 4,
+    "Comprados": 0,
+    "Faltantes": 4,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Babador (plastico)",
+    "Quantidade": 4,
+    "Comprados": 0,
+    "Faltantes": 4,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Porta comidinha",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Amassador de papinha",
+    "Quantidade": 1,
+    "Comprados": 1,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Alimentação",
+    "Idade": "-",
+    "Produto": "Potes/Sacos para congelar leite",
+    "Quantidade": 4,
+    "Comprados": 0,
+    "Faltantes": 4,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Banheira",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Desitin / Bepantol",
+    "Quantidade": 6,
+    "Comprados": 0,
+    "Faltantes": 6,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Cotonete",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Alcool 70% (frasco) ",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Alcool em gel",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Pacote de algodão",
+    "Quantidade": 6,
+    "Comprados": 0,
+    "Faltantes": 6,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Escova de cabelo ou pente",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Tesourinha de unha",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Aspirador Nasal",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Bolsinha para guardar kit de higiene ",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Termometro de bebê",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Shampoo",
+    "Quantidade": 3,
+    "Comprados": 2,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Condicionador",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Sabonete",
+    "Quantidade": 5,
+    "Comprados": 0,
+    "Faltantes": 5,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Oleo de massagem",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Hidratante",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Toalha com capuz",
+    "Quantidade": 3,
+    "Comprados": 1,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Toalha de fralda ",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Rede para banheira ",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Termometro para banho",
+    "Quantidade": 1,
+    "Comprados": 1,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Fraldinha / Pano de boca",
+    "Quantidade": 13,
+    "Comprados": 0,
+    "Faltantes": 13,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Brinquedo de banheira",
+    "Quantidade": 5,
+    "Comprados": 0,
+    "Faltantes": 5,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Suporte para o Bebê na banheira",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Banheira portátil",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Lencinho de mão e rosto (Mustela e Johnson's) ",
+    "Quantidade": 4,
+    "Comprados": 0,
+    "Faltantes": 4,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Lencinho limpar o bebe / umidecido",
+    "Quantidade": 5000,
+    "Comprados": 632,
+    "Faltantes": 4368,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Trocador portátil descartável (de cachorro) ",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Colic-Calm",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Massageador de gengiva ",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Garrafa Térmica",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Fralda de tecido",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Fralda RN",
+    "Quantidade": 0,
+    "Comprados": 0,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Fralda P",
+    "Quantidade": 0,
+    "Comprados": 0,
+    "Faltantes": 0,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Fralda M",
+    "Quantidade": 160,
+    "Comprados": 34,
+    "Faltantes": 126,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Fralda G",
+    "Quantidade": 160,
+    "Comprados": 0,
+    "Faltantes": 160,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Higiene do Bebê",
+    "Idade": "-",
+    "Produto": "Fralda GG",
+    "Quantidade": 1360,
+    "Comprados": 0,
+    "Faltantes": 1360,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Berço",
+    "Quantidade": 1,
+    "Comprados": 1,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Cômoda",
+    "Quantidade": 1,
+    "Comprados": 1,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Armario de roupa ",
+    "Quantidade": 1,
+    "Comprados": 1,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Abajur/luz baixa",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Ruido branco ",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Poltrona de amamentação",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Cama de suporte",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Trocador Half Pipe",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Capa do Trocador",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Babá Eletrônica",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Roupa de cama de berço (com elástico)",
+    "Quantidade": 5,
+    "Comprados": 0,
+    "Faltantes": 5,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Capa protetora do colchão do berço",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Saco de Dormir para o bebê (para parar de chorar)",
+    "Quantidade": 1,
+    "Comprados": 1,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Cobertor e Manta de bebê",
+    "Quantidade": 5,
+    "Comprados": 2,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Móbile",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Mosqueteiro",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Lixeira de fralda",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Papel de Parede/Adesivo de parede",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Cestos de Brinquedos de Roupa Suja",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Caixas Organizadoras",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Enfeites",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Protetor de Berço",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Quarto do Bebe",
+    "Idade": "-",
+    "Produto": "Porta Fralda e Organizador para o trocador",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Bolsa do bebê",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Mochila Canguru ou Sling",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Carrinho de Bebê",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Organizador para o carrinho",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Almofada para Carrinho",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Roupa de Cama para o Carrinho",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Bebê Conforto (cadeirinha)",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Espelho do Bebê no Carro",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Protetor de Cinto de Segurança",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Sleeper da Fisher Price (praticamente um moisés)",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Ginásio de atividades Fisher Price",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Tapete para Brincar",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Placa para porta ",
+    "Quantidade": 1,
+    "Comprados": 1,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Chupetas",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Porta Chupeta",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Prendedor de Chupeta",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Mordedores",
+    "Quantidade": 4,
+    "Comprados": 0,
+    "Faltantes": 4,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Suporte de cabeça / pescoço",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Saco de Roupa Suja",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Brinquedos",
+    "Quantidade": 5,
+    "Comprados": 0,
+    "Faltantes": 5,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Bolsinha térmica (gelada e quente)",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Faixa de umbigo",
+    "Quantidade": 3,
+    "Comprados": 3,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Conta gotas e seringa ",
+    "Quantidade": 1,
+    "Comprados": 0,
+    "Faltantes": 1,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Mamãe",
+    "Idade": "-",
+    "Produto": "Camisola/pijama de amamentação",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Mamãe",
+    "Idade": "-",
+    "Produto": "Absorvente de peito (caixa) ",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Mamãe",
+    "Idade": "-",
+    "Produto": "Creme Mustela (para evitar estrias)",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Mamãe",
+    "Idade": "-",
+    "Produto": "Absorvente (pct) ",
+    "Quantidade": 5,
+    "Comprados": 0,
+    "Faltantes": 5,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Mamãe",
+    "Idade": "-",
+    "Produto": "Calcinha absorvente (pct) ",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Mamãe",
+    "Idade": "-",
+    "Produto": "Sutiã amamentação",
+    "Quantidade": 3,
+    "Comprados": 0,
+    "Faltantes": 3,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Mamãe",
+    "Idade": "-",
+    "Produto": "Calcinhas maiores",
+    "Quantidade": 5,
+    "Comprados": 0,
+    "Faltantes": 5,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Mamãe",
+    "Idade": "-",
+    "Produto": "Calcinha compressora/cinta ",
+    "Quantidade": 2,
+    "Comprados": 0,
+    "Faltantes": 2,
+    "Status": "COMPRAR",
+    "Foto": ""
+  },
+  {
+    "Categoria": "Outros",
+    "Idade": "-",
+    "Produto": "Nessessaire do bebê",
+    "Quantidade": 1,
+    "Comprados": 1,
+    "Faltantes": 0,
+    "Status": "OK",
+    "Foto": ""
+  }
+]

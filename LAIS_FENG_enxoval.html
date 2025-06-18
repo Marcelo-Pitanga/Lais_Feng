@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Enxoval Interativa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #ffeef8;
+      background-size: 160px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      color: #d63384;
+    }
+    #filtros, #botoes {
+      margin-bottom: 20px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #totais {
+      text-align: center;
+      margin-bottom: 15px;
+      font-weight: bold;
+      color: #880e4f;
+      font-size: 18px;
+    }
+    #totais span {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    #totais span::before {
+      content: "📦 ";
+    }
+    #totais span:last-child::before {
+      content: "🛒 ";
+    }
+    button {
+      background-color: #d63384;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      font-size: 14px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ad1457;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #fce4ec;
+    }
+    tr:nth-child(even) {
+      background-color: #fff0f5;
+    }
+    .ok {
+      background-color: #c8e6c9;
+    }
+    .comprar {
+      background-color: #ffcdd2;
+    }
+    input[type="file"] {
+      display: none;
+    }
+    label.upload-btn {
+      background-color: #d63384;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #formAdicionar {
+      margin: 30px 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    #formAdicionar input, #formAdicionar select {
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Lista de Enxoval da LAÍS FENG</h1>
+  <h1>Data Nascimento:  18/09/2025 (Estimativa)</h1>
+  <h1>Mamãe: Thais &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Papai: Xu Nan</h1>
+
+  <div id="filtros">
+    <input type="text" id="filtroProduto" placeholder="🔍 Produto" oninput="renderizarTabela()" />
+    <select id="filtroCategoria" onchange="renderizarTabela()">
+      <option value="">Todas Categorias</option>
+      <option value="Roupas">Roupas</option>
+      <option value="Higiene do Bebê">Higiene do Bebê</option>
+      <option value="Alimentação">Alimentação</option>
+      <option value="Quarto do Bebe">Quarto do Bebe</option>
+      <option value="Outros">Outros</option>
+      <option value="Mamãe">Mamãe</option>
+    </select>
+    <select id="filtroIdade" onchange="renderizarTabela()">
+      <option value="">Todas Idades</option>
+      <option value="RN">RN</option>
+      <option value="0-3 m">0-3 m</option>
+      <option value="3-6 m">3-6 m</option>
+      <option value="6-9 m">6-9 m</option>
+      <option value="9-12 m">9-12 m</option>
+    </select>
+    <select id="filtroStatus" onchange="renderizarTabela()">
+      <option value="">Todos</option>
+      <option value="OK">✅ OK</option>
+      <option value="COMPRAR">🛒 COMPRAR</option>
+    </select>
+    <button onclick="limparFiltros()">Limpar Filtros</button>
+  </div>
+
+  <div id="botoes">
+    <label class="upload-btn">
+      📂 Carregar Lista (JSON)
+      <input type="file" accept=".json" onchange="carregarJSON(event)" />
+    </label>
+    <button onclick="salvarJSON()">💾 Salvar Lista (JSON)</button>
+    <button onclick="exportarCSV()">📤 Exportar CSV</button>
+    <button onclick="window.print()">🖨️ Imprimir</button>
+  </div>
+
+  <form id="formAdicionar" onsubmit="adicionarItem(event)">
+    <select id="categoria" required>
+      <option value="">Categoria</option>
+      <option value="Roupas">Roupas</option>
+      <option value="Higiene do Bebê">Higiene do Bebê</option>
+      <option value="Alimentação">Alimentação</option>
+      <option value="Quarto do Bebe">Quarto do Bebe</option>
+      <option value="Outros">Outros</option>
+      <option value="Mamãe">Mamãe</option>
+    </select>
+    <input type="text" id="idade" placeholder="Idade" required />
+    <input type="text" id="produto" placeholder="Produto" required />
+    <input type="number" id="quantidade" placeholder="Qtd Total" required />
+    <input type="number" id="comprados" placeholder="Qtd Comprados" />
+    <input type="text" id="foto" placeholder="Link Foto (opcional)" />
+    <button type="submit">➕ Adicionar</button>
+  </form>
+
+  <div id="totais">
+    <span id="totalComprados">Total Comprados: 0</span>
+    <span id="totalFaltantes">Total Faltantes: 0</span>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Categoria</th>
+        <th>Idade</th>
+        <th>Produto</th>
+        <th>Quantidade</th>
+        <th>Comprados</th>
+        <th>Faltantes</th>
+        <th>Status</th>
+        <th>Foto</th>
+      </tr>
+    </thead>
+    <tbody id="enxovalBody"></tbody>
+  </table>
+
+<script>
+  const dados = [];
+
+  function carregarJSON(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      try {
+        const conteudo = JSON.parse(e.target.result);
+        if (Array.isArray(conteudo)) {
+          dados.length = 0;
+          conteudo.forEach(d => dados.push(d));
+          renderizarTabela();
+        } else {
+          alert("Formato inválido.");
+        }
+      } catch (err) {
+        alert("Erro ao ler o arquivo.");
+      }
+    };
+    reader.readAsText(file);
+  }
+
+  function salvarJSON() {
+    const blob = new Blob([JSON.stringify(dados, null, 2)], { type: 'application/json' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'lista_enxoval.json';
+    link.click();
+  }
+
+  function exportarCSV() {
+    let csv = 'Categoria,Idade,Produto,Quantidade,Comprados,Faltantes,Status,Foto\n';
+    dados.forEach(d => {
+      csv += `${d.Categoria},${d.Idade},${d.Produto},${d.Quantidade},${d.Comprados},${d.Faltantes},${d.Status},${d.Foto || ''}\n`;
+    });
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'lista_enxoval.csv';
+    link.click();
+  }
+
+  function renderizarTabela() {
+    const tbody = document.getElementById("enxovalBody");
+    tbody.innerHTML = "";
+    let totalC = 0;
+    let totalF = 0;
+
+    const prod = document.getElementById("filtroProduto").value.toLowerCase();
+    const cat = document.getElementById("filtroCategoria").value;
+    const idd = document.getElementById("filtroIdade").value;
+    const stat = document.getElementById("filtroStatus").value;
+
+    dados.forEach((item, index) => {
+      const match = (!prod || item.Produto.toLowerCase().includes(prod)) &&
+        (!cat || item.Categoria === cat) &&
+        (!idd || item.Idade === idd) &&
+        (!stat || item.Status === stat);
+
+      if (match) {
+        const tr = document.createElement("tr");
+        tr.className = item.Status === "OK" ? "ok" : "comprar";
+        tr.innerHTML = `
+          <td>${item.Categoria}</td>
+          <td>${item.Idade}</td>
+          <td>${item.Produto}</td>
+          <td>${item.Quantidade}</td>
+          <td><input type='number' value='${item.Comprados}' min='0' onchange='atualizarComprados(${index}, this.value)' /></td>
+          <td>${item.Faltantes}</td>
+          <td>${item.Status}</td>
+          <td>${item.Foto ? `<a href="${item.Foto}" target="_blank">Ver</a>` : "-"}</td>
+        `;
+        tbody.appendChild(tr);
+        totalC += Number(item.Comprados || 0);
+        totalF += Number(item.Faltantes || 0);
+      }
+    });
+
+    document.getElementById("totalComprados").innerText = `Total Comprados: ${totalC}`;
+    document.getElementById("totalFaltantes").innerText = `Total Faltantes: ${totalF}`;
+  }
+
+  function atualizarComprados(index, valor) {
+    const item = dados[index];
+    item.Comprados = parseInt(valor);
+    item.Faltantes = item.Quantidade - item.Comprados;
+    item.Status = item.Faltantes <= 0 ? "OK" : "COMPRAR";
+    renderizarTabela();
+  }
+
+  function adicionarItem(event) {
+    event.preventDefault();
+    const item = {
+      Categoria: document.getElementById("categoria").value,
+      Idade: document.getElementById("idade").value,
+      Produto: document.getElementById("produto").value,
+      Quantidade: parseInt(document.getElementById("quantidade").value),
+      Comprados: parseInt(document.getElementById("comprados").value) || 0,
+      Foto: document.getElementById("foto").value || ""
+    };
+    item.Faltantes = item.Quantidade - item.Comprados;
+    item.Status = item.Faltantes <= 0 ? "OK" : "COMPRAR";
+    dados.push(item);
+    event.target.reset();
+    renderizarTabela();
+  }
+
+  function limparFiltros() {
+    document.getElementById("filtroProduto").value = "";
+    document.getElementById("filtroCategoria").value = "";
+    document.getElementById("filtroIdade").value = "";
+    document.getElementById("filtroStatus").value = "";
+    renderizarTabela();
+  }
+</script>
+
+</body>
+</html>
