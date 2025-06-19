@@ -169,7 +169,7 @@
 
   async function carregarDadosRemoto() {
     try {
-      const resposta = await fetch('https://raw.githubusercontent.com/Marcelo-Pitanga/Lais_Feng/main/dados_enxoval.json');
+      const resposta = await fetch('https://raw.githubusercontent.com/Marcelo-Pitanga/Lais_Feng/refs/heads/main/dados_enxoval.json');
       const json = await resposta.json();
       dados.push(...json);
       renderizarTabela();
@@ -190,7 +190,7 @@
     const filtroIdade = document.getElementById("filtroIdade").value;
     const filtroStatus = document.getElementById("filtroStatus").value;
 
-    dados.forEach((item, i) => {
+    dados.forEach((item, index) => {
       const matchProduto = item.Produto.toLowerCase().includes(filtroProduto);
       const matchCategoria = !filtroCategoria || item.Categoria === filtroCategoria;
       const matchIdade = !filtroIdade || item.Idade === filtroIdade;
@@ -201,14 +201,14 @@
         tr.className = item.Status === "OK" ? "ok" : "comprar";
 
         tr.innerHTML = `
-          <td>${item.Categoria}</td>
-          <td>${item.Idade}</td>
-          <td>${item.Produto}</td>
-          <td>${item.Quantidade}</td>
-          <td><input type='number' value='${item.Comprados}' min='0' onchange='atualizar(${i}, this.value)' /></td>
+          <td contenteditable oninput="dados[${index}].Categoria = this.innerText">${item.Categoria}</td>
+          <td contenteditable oninput="dados[${index}].Idade = this.innerText">${item.Idade}</td>
+          <td contenteditable oninput="dados[${index}].Produto = this.innerText">${item.Produto}</td>
+          <td contenteditable oninput="dados[${index}].Quantidade = parseInt(this.innerText); atualizarFaltantes(${index})">${item.Quantidade}</td>
+          <td contenteditable oninput="dados[${index}].Comprados = parseInt(this.innerText); atualizarFaltantes(${index})">${item.Comprados}</td>
           <td>${item.Faltantes}</td>
           <td>${item.Status}</td>
-          <td>${item.Foto ? `<a href='${item.Foto}' target='_blank'>Ver</a>` : "-"}</td>
+          <td contenteditable oninput="dados[${index}].Foto = this.innerText">${item.Foto || "-"}</td>
         `;
 
         corpo.appendChild(tr);
@@ -221,12 +221,57 @@
     document.getElementById("totalFaltantes").textContent = `Total Faltantes: ${totalF}`;
   }
 
-  function atualizar(i, valor) {
-    const comprados = parseInt(valor) || 0;
-    dados[i].Comprados = comprados;
-    dados[i].Faltantes = dados[i].Quantidade - comprados;
-    dados[i].Status = dados[i].Faltantes <= 0 ? "OK" : "COMPRAR";
+  function limparFiltros() {
+    document.getElementById("filtroProduto").value = "";
+    document.getElementById("filtroCategoria").value = "";
+    document.getElementById("filtroIdade").value = "";
+    document.getElementById("filtroStatus").value = "";
     renderizarTabela();
+  }
+
+  function adicionarItem(e) {
+    e.preventDefault();
+    const novo = {
+      Categoria: document.getElementById("categoria").value,
+      Idade: document.getElementById("idade").value,
+      Produto: document.getElementById("produto").value,
+      Quantidade: parseInt(document.getElementById("quantidade").value),
+      Comprados: parseInt(document.getElementById("comprados").value || 0),
+      Foto: document.getElementById("foto").value
+    };
+    novo.Faltantes = novo.Quantidade - novo.Comprados;
+    novo.Status = novo.Faltantes <= 0 ? "OK" : "COMPRAR";
+    dados.push(novo);
+    e.target.reset();
+    renderizarTabela();
+  }
+
+  function atualizarFaltantes(index) {
+    const item = dados[index];
+    item.Faltantes = item.Quantidade - item.Comprados;
+    item.Status = item.Faltantes <= 0 ? "OK" : "COMPRAR";
+    renderizarTabela();
+  }
+
+  function salvarJSON() {
+    const blob = new Blob([JSON.stringify(dados, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "lista_enxoval.json";
+    a.click();
+  }
+
+  function exportarCSV() {
+    const cabecalho = ["Categoria","Idade","Produto","Quantidade","Comprados","Faltantes","Status","Foto"];
+    const linhas = dados.map(d => cabecalho.map(c => d[c]).join(","));
+    const csv = [cabecalho.join(","), ...linhas].join("\n");
+    const blob = new Blob([csv], { type: "text/csv" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "lista_enxoval.csv";
+    a.click();
   }
 
   carregarDadosRemoto();
