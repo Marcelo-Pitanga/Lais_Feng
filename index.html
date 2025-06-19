@@ -169,7 +169,7 @@
 
   async function carregarDadosRemoto() {
     try {
-      const resposta = await fetch('https://raw.githubusercontent.com/Marcelo-Pitanga/Lais_Feng/refs/heads/main/dados_enxoval.json');
+      const resposta = await fetch('https://raw.githubusercontent.com/Marcelo-Pitanga/Lais_Feng/main/dados_enxoval.json');
       const json = await resposta.json();
       dados.push(...json);
       renderizarTabela();
@@ -190,7 +190,7 @@
     const filtroIdade = document.getElementById("filtroIdade").value;
     const filtroStatus = document.getElementById("filtroStatus").value;
 
-    dados.forEach(item => {
+    dados.forEach((item, i) => {
       const matchProduto = item.Produto.toLowerCase().includes(filtroProduto);
       const matchCategoria = !filtroCategoria || item.Categoria === filtroCategoria;
       const matchIdade = !filtroIdade || item.Idade === filtroIdade;
@@ -205,7 +205,7 @@
           <td>${item.Idade}</td>
           <td>${item.Produto}</td>
           <td>${item.Quantidade}</td>
-          <td>${item.Comprados}</td>
+          <td><input type='number' value='${item.Comprados}' min='0' onchange='atualizar(${i}, this.value)' /></td>
           <td>${item.Faltantes}</td>
           <td>${item.Status}</td>
           <td>${item.Foto ? `<a href='${item.Foto}' target='_blank'>Ver</a>` : "-"}</td>
@@ -219,6 +219,14 @@
 
     document.getElementById("totalComprados").textContent = `Total Comprados: ${totalC}`;
     document.getElementById("totalFaltantes").textContent = `Total Faltantes: ${totalF}`;
+  }
+
+  function atualizar(i, valor) {
+    const comprados = parseInt(valor) || 0;
+    dados[i].Comprados = comprados;
+    dados[i].Faltantes = dados[i].Quantidade - comprados;
+    dados[i].Status = dados[i].Faltantes <= 0 ? "OK" : "COMPRAR";
+    renderizarTabela();
   }
 
   carregarDadosRemoto();
