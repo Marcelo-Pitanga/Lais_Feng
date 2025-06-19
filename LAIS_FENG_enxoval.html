@@ -74,16 +74,6 @@
     .comprar {
       background-color: #ffcdd2;
     }
-    input[type="file"] {
-      display: none;
-    }
-    label.upload-btn {
-      background-color: #d63384;
-      color: white;
-      padding: 8px 16px;
-      border-radius: 4px;
-      cursor: pointer;
-    }
     #formAdicionar {
       margin: 30px 0;
       display: flex;
@@ -177,15 +167,61 @@
 <script>
   const dados = [];
 
-  fetch('https://raw.githubusercontent.com/Marcelo-Pitanga/Lais_Feng/refs/heads/main/dados_enxoval.json')
-    .then(response => response.json())
-    .then(json => {
-      json.forEach(d => dados.push(d));
+  async function carregarDadosRemoto() {
+    try {
+      const resposta = await fetch('https://raw.githubusercontent.com/Marcelo-Pitanga/Lais_Feng/refs/heads/main/dados_enxoval.json');
+      const json = await resposta.json();
+      dados.push(...json);
       renderizarTabela();
+    } catch (erro) {
+      console.error('Erro ao carregar dados:', erro);
+    }
+  }
+
+  function renderizarTabela() {
+    const corpo = document.getElementById("enxovalBody");
+    corpo.innerHTML = "";
+
+    let totalC = 0;
+    let totalF = 0;
+
+    const filtroProduto = document.getElementById("filtroProduto").value.toLowerCase();
+    const filtroCategoria = document.getElementById("filtroCategoria").value;
+    const filtroIdade = document.getElementById("filtroIdade").value;
+    const filtroStatus = document.getElementById("filtroStatus").value;
+
+    dados.forEach(item => {
+      const matchProduto = item.Produto.toLowerCase().includes(filtroProduto);
+      const matchCategoria = !filtroCategoria || item.Categoria === filtroCategoria;
+      const matchIdade = !filtroIdade || item.Idade === filtroIdade;
+      const matchStatus = !filtroStatus || item.Status === filtroStatus;
+
+      if (matchProduto && matchCategoria && matchIdade && matchStatus) {
+        const tr = document.createElement("tr");
+        tr.className = item.Status === "OK" ? "ok" : "comprar";
+
+        tr.innerHTML = `
+          <td>${item.Categoria}</td>
+          <td>${item.Idade}</td>
+          <td>${item.Produto}</td>
+          <td>${item.Quantidade}</td>
+          <td>${item.Comprados}</td>
+          <td>${item.Faltantes}</td>
+          <td>${item.Status}</td>
+          <td>${item.Foto ? `<a href='${item.Foto}' target='_blank'>Ver</a>` : "-"}</td>
+        `;
+
+        corpo.appendChild(tr);
+        totalC += Number(item.Comprados);
+        totalF += Number(item.Faltantes);
+      }
     });
 
-  // sua função renderizarTabela e demais funções continuam aqui...
-</script>
+    document.getElementById("totalComprados").textContent = `Total Comprados: ${totalC}`;
+    document.getElementById("totalFaltantes").textContent = `Total Faltantes: ${totalF}`;
+  }
 
+  carregarDadosRemoto();
+</script>
 </body>
 </html>
